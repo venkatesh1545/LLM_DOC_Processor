@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+requests
+python-magic-bin
+python-docx
+pdfminer.six
+faiss-cpu
+sentence-transformers
+numpy
+openai
