@@ -9,7 +9,7 @@ DOC_CHUNK_SIZE: Final = 512
 DOC_CHUNK_OVERLAP: Final = 50
 
 # === Ollama =============================================================
-OLLAMA_MODEL: Final = "llama3.2"
+OLLAMA_MODEL: Final = "llama3.2:latest"
 OLLAMA_BASE_URL: Final = "http://localhost:11434"
 
 # === Paths ============================================================== 
@@ -18,4 +18,5 @@ DATA_DIR = BASE_DIR / "data"
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 TMP_DIR = BASE_DIR / "tmp"
 TMP_DIR.mkdir(parents=True, exist_ok=True)
+
 
